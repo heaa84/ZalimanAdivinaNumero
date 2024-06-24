@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaliman y el Número Mágico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Zaliman y el Número Mágico</h1>
+        <p>Piensa en un número entre 1 y 100 y Zaliman lo adivinará.</p>
+        <div class="resultado" id="resultado"></div>
+        <div class="controles">
+            <button id="adivinaBtn" onclick="adivinarNumero()">Adivina mi número</button>
+            <button id="masBajoBtn" onclick="masBajo()" disabled>Más bajo</button>
+            <button id="masAltoBtn" onclick="masAlto()" disabled>Más alto</button>
+            <button id="eseEsBtn" onclick="eseEsElNumero()" disabled>Ese es el número</button>
+            <button id="reiniciarBtn" onclick="reiniciarJuego()" disabled>Reiniciar</button>
+            <div class="instrucciones">
+                <p class="instruccion">1. Piensa en un número entre 1 y 100.</p>
+                <p class="instruccion">2. Zaliman intentará adivinar tu número.</p>
+                <p class="instruccion">3. Después de cada intento, indica si el número de Zaliman es demasiado alto, demasiado bajo o si acertó.</p>
+                <p class="instruccion">4. ¡Diviértete viendo cómo Zaliman utiliza su magia para adivinar tu número!</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

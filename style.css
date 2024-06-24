@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Fondo gris claro */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #d90000; /* Rojo oscuro */
+}
+
+p {
+    color: #1a75ff; /* Azul primario */
+}
+
+.resultado {
+    font-size: 1.5em;
+    margin: 20px 0;
+    color: #005bb5; /* Azul secundario */
+}
+
+.controles {
+    margin-top: 20px;
+}
+
+.controles button {
+    background-color: #d90000; /* Rojo oscuro */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.controles button:hover {
+    background-color: #b20000; /* Rojo más oscuro al pasar el mouse */
+}
+
+.controles button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.instrucciones {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.instrucciones .instruccion {
+    margin: 5px;
+    padding: 0;
+    line-height: 1.6;
+}
